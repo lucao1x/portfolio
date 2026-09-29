@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- EDITE: o título que aparece na aba do navegador -->
+  <title>Lucas | Portfolio</title>
+  <meta name="description" content="Portfolio of a software engineering student.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    /* CORES: troque os valores aqui e o site inteiro muda */
+    :root {
+      --bg: #eef2f7;
+      --text: #1b2a41;
+      --muted: #52627a;
+      --accent: #2f5bea;
+      --line: #c9d3e2;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "DM Sans", system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    main { max-width: 720px; margin: 0 auto; padding: 0 24px; }
+    section { padding: 56px 0; border-top: 1px solid var(--line); }
+
+    /* TOPO */
+    header { padding: 96px 0 64px; }
+    h1 { font-size: clamp(2.6rem, 9vw, 4.5rem); line-height: 1.05; margin: 0 0 20px; letter-spacing: -0.03em; }
+    .tagline { font-size: 1.25rem; color: var(--muted); max-width: 32em; margin: 0; }
+
+    h2 { font-size: 1.5rem; margin: 0 0 20px; }
+    p { max-width: 38em; }
+    a { color: var(--accent); }
+    a:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+
+    /* PROJETOS */
+    .project { padding: 20px 0; border-bottom: 1px solid var(--line); }
+    .project:last-child { border-bottom: none; }
+    .project h3 { margin: 0 0 4px; font-size: 1.15rem; }
+    .project p { margin: 0 0 8px; color: var(--muted); }
+
+    /* CONTATO */
+    .contacts { list-style: none; padding: 0; margin: 0; }
+    .contacts li { margin-bottom: 8px; }
+
+    footer { padding: 32px 0 56px; color: var(--muted); font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+  <main>
+
+    <!-- TOPO: EDITE seu nome e sua frase de apresentação -->
+    <header>
+      <h1>Lucas</h1>
+      <p class="tagline">I'm starting a Software Engineering degree in 2027 and already learning to build things in practice.</p>
+    </header>
+
+    <!-- SOBRE: conte quem você é em 2 ou 3 frases -->
+    <section id="about">
+      <h2>About me</h2>
+      <p>I'm from Brazil, currently I'm studying software engineering in my first period and I hope to enjoy this area and take it as a career path in my life.</p>
+      <p>Right now I'm studying HTML, CSS and JavaScript, and this website is my first project.</p>
+    </section>
+
+    <!-- PROJETOS: copie um bloco "project" para cada novo projeto que fizer -->
+    <section id="projects">
+      <h2>Projects</h2>
+
+      <div class="project">
+        <h3>This portfolio</h3>
+        <p>My first website, built with HTML and CSS and published on GitHub Pages.</p>
+        <a href="https://github.com/your-username/your-repository">View code on GitHub</a>
+      </div>
+
+      <div class="project">
+        <h3>Next project (coming soon)</h3>
+        <p>proprobably something related to the automation of Reels,Shorts and TikToks.</p>
+      </div>
+    </section>
+
+    <!-- CONTATO: troque pelos seus links reais -->
+    <section id="contact">
+      <h2>Contact</h2>
+      <ul class="contacts">
+        <li><a href="https://github.com/lucao1x">GitHub</a></li>
+        <li><a href="mailto:lucaoalmeida600@gmail.com">lucaoalmeida600@gmail.com</a></li>
+        <li><a href="https://www.instagram.com/lucaot1/">Instagram</a></li>
+      </ul>
+    </section>
+
+    <footer>Made by Lucas, 2026.</footer>
+  </main>
+</body>
+</html>
